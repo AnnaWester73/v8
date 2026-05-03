@@ -3,7 +3,7 @@ Som en användare, vill jag kunna skapa en time-widget,
 så att jag kan mäta tid
 
 # User story 2
-Som en användare, vill kan kunna lägga till en anteckning till mätning av tid,
+Som en användare, vill kan kunna lägga till en anteckning till timer-widget,
 så att jag kan visa information kopplad till tiden.
 
 # User story 3
@@ -12,11 +12,11 @@ så att jag inte behöver vänta till tiden gått ut.
 
 # User story 4
 Som en användare, vill jag kunna ta bort en anteckning till en timer-widget,
-så att jag inte visar någon anteckning till mätning av tid.
+så att jag inte visar någon anteckning i en timer-widget
 
 # User story 5
-Som en användare, vill jag kunna byta plats på widgets,
-så att jag kan lägga widget vart jag vill på skärmen.
+Som en användare, vill jag kunna skapa flera timer-widget,
+så att jag kan mäta fler tider samtidigt
 
 # User story 6
 Som en användare, vill jag kunna ändra tiden på timer-widget,
@@ -33,6 +33,10 @@ så att jag kan ändra text efter behov.
 # User story 9
 Som en användare, vill jag kunna ändra färger på widget,
 så att jag kan få olika teman på widgets.
+
+# User story 10
+Som en användare, vill jag kunna byta plats på timer-widgets,
+så att jag kan anpassa vart jag vill att det ska visas.
 
 
 
