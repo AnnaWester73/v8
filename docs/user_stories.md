@@ -1,13 +1,13 @@
 # User story 1
-Som en användare, vill jag kunna skapa en time-widget,
+Som en användare, vill jag kunna skapa en timer-widget,
 så att jag kan mäta tid
 
 # User story 2
-Som en användare, vill kan kunna lägga till en anteckning till timer-widget,
+Som en användare, vill jag kunna lägga till en anteckning till timer-widget,
 så att jag kan visa information kopplad till tiden.
 
 # User story 3
-Som en användare, vill kan kunna ta bort en timer-widget,
+Som en användare, vill jag kunna ta bort en timer-widget,
 så att jag inte behöver vänta till tiden gått ut.
 
 # User story 4

@@ -13,7 +13,7 @@
 
 ## Dokumentation
 * User stories docs/user_stories.md
-* Acceptanskriterier docs/acceptence_criteria.md
+* Acceptanskriterier docs/acceptance_criteria.md
 * Testscenarier docs/test_scenarios.md
 
 
