@@ -75,7 +75,7 @@ User story 7: A3
 6. Kontrollera att tiden återgår till startvärdet.
 
 ## Scenario 10 – Ändra text i anteckning
-User story 8: A1,A2
+User story 8: A1, A2
 1. Öppna applikationen.
 2. Skapa en timer-widget.
 3. Lägg till en anteckning.
