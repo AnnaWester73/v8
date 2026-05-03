@@ -11,6 +11,11 @@
 * ändra texten för anteckning
 * ändra temafärg
 
+## Dokumentation
+* User stories docs/user_stories.md
+* Acceptanskriterier docs/acceptence_criteria.md
+* Testscenarier docs/test_scenarios.md
+
 
 ## Installation
 ```bash
