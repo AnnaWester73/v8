@@ -23,8 +23,7 @@ def test_add_note(page: Page):
     notes = page.locator(".note")
     before = notes.count()
 
-    # Skapa timer och note
-    page.get_by_role("button", name="Add timer").click()
+    # Skapa note
     page.get_by_role("button", name="Add note").click()
 
     after = notes.count()
@@ -39,3 +38,15 @@ def test_write_note_text(page: Page):
     page.keyboard.type("Min anteckning")
 
     assert "Min anteckning" in page.content()
+
+# User story 3: A1
+def test_delete_timer_widget(page):
+    page.goto(URL)
+
+    page.get_by_role("button", name="Add timer").click()
+    widgets = page.locator(".widget")
+    before = widgets.count()
+    page.locator(".icon.close").first.click()
+
+    after = widgets.count()
+    assert after == before - 1

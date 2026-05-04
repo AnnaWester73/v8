@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8b4798cf-7933-442c-94d6-174fb4c949fd" name="Changes" comment="Commit changes E2E user story 1">
+    <list default="true" id="8b4798cf-7933-442c-94d6-174fb4c949fd" name="Changes" comment="Commit changes E2E user story 2">
       <change beforePath="$PROJECT_DIR$/tests/e2e/test_timer.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/e2e/test_timer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -162,7 +162,23 @@
       <option name="project" value="LOCAL" />
       <updated>1777878157972</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Commit changes E2E user story 2">
+      <option name="closed" value="true" />
+      <created>1777879316052</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1777879316052</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Commit changes E2E user story 2">
+      <option name="closed" value="true" />
+      <created>1777879584872</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1777879584872</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -171,6 +187,7 @@
     <MESSAGE value="Commit for acceptanskriterier" />
     <MESSAGE value="Commit first E2E user story 1" />
     <MESSAGE value="Commit changes E2E user story 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit changes E2E user story 1" />
+    <MESSAGE value="Commit changes E2E user story 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit changes E2E user story 2" />
   </component>
 </project>
