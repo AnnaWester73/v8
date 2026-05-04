@@ -6,8 +6,9 @@ URL = "https://lejonmanen.github.io/timer-vue/"
 def test_create_timer_widget(page: Page):
 
     page.goto(URL)
-    widgets = page.locator(".widget")
-    before = widgets.count()
 
+    before = page.locator(".widget").count()
     page.get_by_role("button", name="Add timer").click()
-    expect(widgets).to_have_count(before + 1)
+    after = page.locator(".widget").count()
+
+    assert after == before + 1
