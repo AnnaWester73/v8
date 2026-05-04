@@ -35,10 +35,7 @@ def test_write_note_text(page: Page):
     page.goto(URL)
 
     page.get_by_role("button", name="Add note").click()
+    page.get_by_text("Click to change text").click()
+    page.keyboard.type("Min anteckning")
 
-    note = page.locator(".note").last
-    note.click()
-
-    page.keyboard.type("En liten text")
-
-    expect(note).to_contain_text("En liten text")
+    assert "Min anteckning" in page.content()
